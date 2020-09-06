@@ -113,7 +113,7 @@
                                             <figure>
                                                 <div class="product_thumb">
                                                     <a class="primary_img" href="javascript:;"><img src="{{asset($item->image)}}" alt=""></a>
-                                                    <a class="secondary_img" href="javascript:;"><img src="{{asset($item->image2)}}" alt=""></a>
+                                                    <a class="secondary_img" href="javascript:;"><img src="{{asset($item->image)}}" alt=""></a>
                                                     <div class="quick_button">
                                                         <a href="{{route('cart')}}"  title="Add To Cart">{{__('page.add_to_cart')}}</a>
                                                     </div>
